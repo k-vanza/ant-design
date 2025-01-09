@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TutorialOne from './tutorials/TutorialOne'
+import TutorialThree from './tutorials/TutorialThree'
 
 
 
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       <div>ant design</div>
-      <TutorialOne />
+      {/* <TutorialOne /> */}
+      <TutorialThree />
     </>
   )
 }
